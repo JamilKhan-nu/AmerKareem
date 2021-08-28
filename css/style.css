@@ -157,16 +157,17 @@ body {
 
 .profile p {
     float: right;
-    width: 50%;
+    width: 60%;
     height: 100%;
     text-align: center;
     overflow: hidden;
-    font-size: 18px;
+    font-size: 16px;
     color: #20303f;
     text-align: left;
-    line-height: 1.7;
+    
     background-color: #fff;
     padding: 15px;
+    font-family: 'Fira Code', monospace;
 }
 
 .bold {
