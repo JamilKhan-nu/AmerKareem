@@ -134,8 +134,9 @@ body {
     text-align: right;
     padding-right: 30px;
     color: #20303f;
-    
 }
+
+
 
 .about-me h2 {
     font-family:'Allura', cursive;
@@ -164,10 +165,23 @@ body {
     font-size: 16px;
     color: #20303f;
     text-align: left;
-    
     background-color: #fff;
     padding: 15px;
     font-family: 'Fira Code', monospace;
+}
+
+.profile p span {
+    padding: 10px;
+    margin-top: 10px;
+    display: block;
+}
+
+.profile i {
+    display: block;
+    margin-top: 20px;
+    float: left;
+    padding-left: 15%;
+    
 }
 
 .bold {
@@ -296,3 +310,100 @@ body {
     
 }
 
+#project {
+    height: 900px;
+    text-align: center;
+    background-image: linear-gradient(to top, #4ca2afb9, #2C3E50), url('../img/project.gif');
+    padding-top: 80px;
+    color: #fff;
+}
+
+#project h4 {
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.project-box {
+    height: 600px;
+    float: left;
+    width: 30%;
+    background-color: #20303f;
+    margin: 15px;
+    text-align: left;
+}
+
+.project-img {
+    height: 60%;
+    width: 100%;
+}
+
+.project-img img {
+    height: 100%;
+    width: 100%;
+}
+
+.project-img h5 {
+    font-size: 20px;
+    font-weight: lighter;
+    margin-bottom: 15px;
+    margin: 15px;
+}
+
+.project-img p {
+    font-size: 15px;
+    font-weight: lighter;
+    margin-top: 10px;
+}
+
+#contact {
+    height: 900px;
+    text-align: center;
+    background-image: linear-gradient(to top, #4ca2afb9, #2C3E50), url('../img/contact.jpg');
+    padding-top: 80px;
+    color: #fff;
+}
+
+#contact h1 {
+    font-size: 40px;
+}
+
+#contact h1 span {
+    font-weight: 900;
+}
+
+#contact input {
+    display: block;
+    float: left;
+    height: 50px;
+    width: 600px;
+    margin-top: 30px;
+    margin-left: 25%;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+#contact textarea {
+    display: block;
+    float: left;
+    height: 250px;
+    width: 600px;
+    margin-top: 30px;
+    margin-left: 25%;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+#contact button {
+    display: block;
+    float: left;
+    height: 50px;
+    width: 600px;
+    margin-top: 30px;
+    margin-left: 25%;
+    font-size: 20px;
+    padding-left: 10px;
+    border-radius: 10px;
+    background-color: #20303f;
+    color: #fff;
+}
